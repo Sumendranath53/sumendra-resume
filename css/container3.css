@@ -1,0 +1,35 @@
+.bg3 {
+	background: linear-gradient(-45deg, #ff0202, #e73c7e, #c0e618, #e5ff00);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+/* /////////card gradiant for card of 2nd div///////////// */
+.bg21 {
+	background: linear-gradient(-90deg, #ff0000, #0059ff, #0059ff, #ff0000);
+	background-size: 400% 400%;
+	animation: gradient 4s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
