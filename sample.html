@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/2.1.99/css/materialdesignicons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/css/swiper.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+    <title>Document</title>
+    <style>
+    * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.title {
+  margin-top: 50px;
+}
+.title h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  text-transform: uppercase;
+  color: #d63031;
+}
+.title h1 span {
+  display: block;
+  color: #300a0a;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/*Carousel Gallery*/
+.carousel-gallery {
+  margin: 50px 0;
+  padding: 0 30px;
+}
+.carousel-gallery .swiper-slide a {
+  display: block;
+  width: 100%;
+  height: 200px;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  -webkit-box-shadow: 3px 2px 20px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 3px 2px 20px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 2px 20px 0px rgba(0, 0, 0, 0.2);
+}
+.carousel-gallery .swiper-slide a:hover .image .overlay {
+  opacity: 1;
+}
+.carousel-gallery .swiper-slide a .image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-gallery .swiper-slide a .image .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(20, 20, 20, 0.8);
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+}
+.carousel-gallery .swiper-slide a .image .overlay em {
+  color: #fff;
+  font-size: 26px;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: inline-block;
+}
+.carousel-gallery .swiper-pagination {
+  position: relative;
+  bottom: auto;
+  text-align: center;
+  margin-top: 25px;
+}
+.carousel-gallery .swiper-pagination .swiper-pagination-bullet {
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+}
+.carousel-gallery .swiper-pagination .swiper-pagination-bullet:hover {
+  opacity: .7;
+}
+.carousel-gallery .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #d63031;
+  transform: scale(1.1, 1.1);
+}
+
+/*# Carousel Gallery*/
+.plugins {
+  text-align: center;
+}
+.plugins h3 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  text-transform: uppercase;
+  color: #111;
+}
+.plugins a {
+  display: inline-block;
+  font-family: Arial;
+  color: #777;
+  font-size: 14px;
+  margin: 10px;
+  transition: all .2s linear;
+}
+.plugins a:hover {
+  color: #d63031;
+}
+
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h1><span>Responsive</span> Carousel Gallery</h1>
+      </div>
+      
+      <!--Carousel Gallery-->
+      <div class="carousel-gallery">
+          <div class="swiper-container">
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                      <a href="https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery">
+                          <div class="image" style="background-image: url(https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                              <div class="overlay">
+                                  <em class="mdi mdi-magnify-plus"></em>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="swiper-slide">
+                      <a href="https://images.pexels.com/photos/248280/pexels-photo-248280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery">
+                          <div class="image" style="background-image: url(https://images.pexels.com/photos/248280/pexels-photo-248280.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                              <div class="overlay">
+                                  <em class="mdi mdi-magnify-plus"></em>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="swiper-slide">
+                      <a href="https://images.pexels.com/photos/89095/pexels-photo-89095.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery">
+                          <div class="image" style="background-image: url(https://images.pexels.com/photos/89095/pexels-photo-89095.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                              <div class="overlay">
+                                  <em class="mdi mdi-magnify-plus"></em>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="https://images.pexels.com/photos/89095/pexels-photo-89095.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery">
+                        <div class="image" style="background-image: url(https://images.pexels.com/photos/89095/pexels-photo-89095.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                            <div class="overlay">
+                                <em class="mdi mdi-magnify-plus"></em>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://images.pexels.com/photos/89095/pexels-photo-89095.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery">
+                        <div class="image" style="background-image: url(https://images.pexels.com/photos/89095/pexels-photo-89095.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                            <div class="overlay">
+                                <em class="mdi mdi-magnify-plus"></em>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                  <div class="swiper-slide">
+                      <a href="https://images.pexels.com/photos/669319/pexels-photo-669319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery">
+                          <div class="image" style="background-image: url(https://images.pexels.com/photos/669319/pexels-photo-669319.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                              <div class="overlay">
+                                  <em class="mdi mdi-magnify-plus"></em>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="swiper-slide">
+                      <a href="https://images.pexels.com/photos/277477/pexels-photo-277477.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery">
+                          <div class="image" style="background-image: url(https://images.pexels.com/photos/277477/pexels-photo-277477.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                              <div class="overlay">
+                                  <em class="mdi mdi-magnify-plus"></em>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="swiper-slide">
+                      <a href="https://images.pexels.com/photos/928276/pexels-photo-928276.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery">
+                          <div class="image" style="background-image: url(https://images.pexels.com/photos/928276/pexels-photo-928276.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                              <div class="overlay">
+                                  <em class="mdi mdi-magnify-plus"></em>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+              </div>
+              <div class="swiper-pagination"></div>
+          </div>
+      </div>
+      <!--#Carousel Gallery-->
+      
+      <div class="plugins">
+        <h3>Plugins</h3>
+        
+        <a href="http://idangero.us/swiper/" target="_blank">Swiper Slide</a>
+        <a href="https://fancyapps.com/fancybox/3/" target="_blank">fancyBox3</a>
+      </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+    <script>
+        $(function(){
+     
+     var swiper = new Swiper('.carousel-gallery .swiper-container', {
+       effect: 'slide',
+       speed: 900,
+       slidesPerView: 5,
+       spaceBetween: 20,
+       simulateTouch: true,
+       autoplay: {
+         delay: 5000,
+         stopOnLastSlide: false,
+         disableOnInteraction: false
+       },
+       pagination: {
+         el: '.carousel-gallery .swiper-pagination',
+         clickable: true
+       },
+       breakpoints: {
+         // when window width is <= 320px
+         320: {
+           slidesPerView: 1,
+           spaceBetween: 5
+         },
+         // when window width is <= 480px
+         425: {
+           slidesPerView: 2,
+           spaceBetween: 10
+         },
+         // when window width is <= 640px
+         768: {
+           slidesPerView: 3,
+           spaceBetween: 20
+         }
+       }
+     }); /*http://idangero.us/swiper/api/*/
+   
+     
+   
+   });
+        </script> 
+</body>
+</html>
