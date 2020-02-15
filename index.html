@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/divtext.css">
     <link rel="stylesheet" href="css/container_2.css">
     <link rel="stylesheet" href="css/container3.css">
+    <!-- ///////////////////////div-1-css/////////////////////////// -->
+    <link rel="stylesheet" href="css/div2_card.css">
 <!-- //////////////////// slider css ///////////////////////////// -->
 <link rel="stylesheet" href="//cdn.materialdesignicons.com/2.1.99/css/materialdesignicons.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/css/swiper.min.css">
@@ -65,37 +67,37 @@
         </div>
       </div>
 
-
+<!-- ///////////////////////////// webproject cards///////////////////////////// -->
 <div class="container-fluid">
   <div class="row justify-content-center"> <h1>My Web Design</h1> </div>
   <div class="card-deck">
-    <a href="https://sumendranath53.github.io/sumendra10.github.io/" class="card">
-      <img src="img/web1.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Sample Web template</h5>
-        <p class="card-text">This is a simple web template which in made keeping in mind the Flate UI Design        </p>
-      </div>
-      <div class="card-footer">
-        <small class="text-muted">Last updated 1 Year ago</small>
-      </div>
-    </a>
-      <a href="https://sumendranath53.github.io/archanatravels53/index.html" class="card">
+      <a data-fancybox data-options='{"caption" : "My caption", "src" : "https://sumendranath53.github.io/archanatravels53/index.html", "type" : "iframe"}' href="javascript:;"  class="card  card-a">
         <img src="img/web2.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <div class="card-body  text-center">
+          <h5 class="card-title">Archana Travels</h5>
+          <p class="card-text">This a Travel Agency Website made according to Customer Requirements</p>
         </div>
-        <div class="card-footer">
+        <div class="card-footer  text-center">
           <small class="text-muted">Last updated 6 months ago</small>
         </div>
       </a>
-    <a href="https://sumendranath53.github.io/SunShine/" class="card">
+      <a href="https://sumendranath53.github.io/sumendra10.github.io/" class="card card-a">
+        <img src="img/web1.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Sample Web template</h5>
+          <p class="card-text" style="text-decoration: none;">This is a simple web template which in made keeping in mind the Flate UI Design</p>
+        </div>
+        <div class="card-footer text-center">
+          <small class="text-muted" style="text-decoration: none;">Last updated 1 Year ago</small>
+        </div>
+      </a>
+    <a href="https://sumendranath53.github.io/SunShine/" class="card card-a">
       <img src="img/web3.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <div class="card-body  text-center">
+        <h5 class="card-title">SunShineZoom</h5>
+        <p class="card-text">This is a Startup website made for Event Management and Web Designing</p>
       </div>
-      <div class="card-footer">
+      <div class="card-footer  text-center">
         <small class="text-muted">Last updated 3 Days ago</small>
       </div>
     </a>
@@ -105,13 +107,14 @@
 
 <!-- ///////////////////////// slider  ///////////////////////////// -->
 
+<hr class="my-5" />
 
 
 <div class="container-fluid">
   <div class="sliderdiv">
 
     <div class="title">
-      <h1><span>Some Example of</span>PhotoGraphy and photo-Editing</h1>
+      <h1><span>Click On Image To Preview Full Gallary</span>PhotoGraphes and Edited-Photo</h1>
     </div>
     
     <!--Carousel Gallery-->
@@ -208,9 +211,48 @@
                   </div>
               </a>
              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <!--#Carousel Gallery-->
+
+
+
+    <!--#Carousel Gallery2-->
+    <div class="carousel-gallery">
+      <div class="swiper-container">
+          <div class="swiper-wrapper">
+           <div class="swiper-slide">
+            <a href="img/slider/11s.jpg" data-fancybox="gallery">
+                <div class="image" style="background-image: url(img/slider/11.jpeg)">
+                    <div class="overlay">
+                        <em class="mdi mdi-magnify-plus"></em>
+                    </div>
+                </div>
+            </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="img/slider/12s.jpg" data-fancybox="gallery">
+                  <div class="image" style="background-image: url(img/slider/12.jpeg)">
+                      <div class="overlay">
+                          <em class="mdi mdi-magnify-plus"></em>
+                      </div>
+                  </div>
+              </a>
+             </div>
              <div class="swiper-slide">
-              <a href="img/slider/11s.jpg" data-fancybox="gallery">
-                  <div class="image" style="background-image: url(img/slider/11.jpeg)">
+              <a href="img/slider/13s.jpg" data-fancybox="gallery">
+                  <div class="image" style="background-image: url(img/slider/13.jpeg)">
+                      <div class="overlay">
+                          <em class="mdi mdi-magnify-plus"></em>
+                      </div>
+                  </div>
+              </a>
+             </div>
+             <div class="swiper-slide">
+              <a href="img/slider/14s.jpg" data-fancybox="gallery">
+                  <div class="image" style="background-image: url(img/slider/14.jpeg)">
                       <div class="overlay">
                           <em class="mdi mdi-magnify-plus"></em>
                       </div>
@@ -218,26 +260,26 @@
               </a>
               </div>
               <div class="swiper-slide">
-                <a href="img/slider/12s.jpg" data-fancybox="gallery">
-                    <div class="image" style="background-image: url(img/slider/12.jpeg)">
+                <a href="img/slider/15s.jpg" data-fancybox="gallery">
+                    <div class="image" style="background-image: url(img/slider/15.jpeg)">
                         <div class="overlay">
                             <em class="mdi mdi-magnify-plus"></em>
                         </div>
                     </div>
                 </a>
-               </div>
-               <div class="swiper-slide">
-                <a href="img/slider/13s.jpg" data-fancybox="gallery">
-                    <div class="image" style="background-image: url(img/slider/13.jpeg)">
+              </div>
+              <div class="swiper-slide">
+                <a href="img/slider/16s.jpg" data-fancybox="gallery">
+                    <div class="image" style="background-image: url(img/slider/16.jpeg)">
                         <div class="overlay">
                             <em class="mdi mdi-magnify-plus"></em>
                         </div>
                     </div>
                 </a>
-               </div>
-               <div class="swiper-slide">
-                <a href="img/slider/14s.jpg" data-fancybox="gallery">
-                    <div class="image" style="background-image: url(img/slider/14.jpeg)">
+              </div>
+              <div class="swiper-slide">
+                <a href="img/slider/17s.jpg" data-fancybox="gallery">
+                    <div class="image" style="background-image: url(img/slider/17.jpeg)">
                         <div class="overlay">
                             <em class="mdi mdi-magnify-plus"></em>
                         </div>
@@ -245,8 +287,8 @@
                 </a>
                 </div>
                 <div class="swiper-slide">
-                  <a href="img/slider/15s.jpg" data-fancybox="gallery">
-                      <div class="image" style="background-image: url(img/slider/15.jpeg)">
+                  <a href="img/slider/18s.jpg" data-fancybox="gallery">
+                      <div class="image" style="background-image: url(img/slider/18.jpeg)">
                           <div class="overlay">
                               <em class="mdi mdi-magnify-plus"></em>
                           </div>
@@ -254,8 +296,8 @@
                   </a>
                 </div>
                 <div class="swiper-slide">
-                  <a href="img/slider/16s.jpg" data-fancybox="gallery">
-                      <div class="image" style="background-image: url(img/slider/16.jpeg)">
+                  <a href="img/slider/19s.jpg" data-fancybox="gallery">
+                      <div class="image" style="background-image: url(img/slider/19.jpeg)">
                           <div class="overlay">
                               <em class="mdi mdi-magnify-plus"></em>
                           </div>
@@ -263,54 +305,63 @@
                   </a>
                 </div>
                 <div class="swiper-slide">
-                  <a href="img/slider/17s.jpg" data-fancybox="gallery">
-                      <div class="image" style="background-image: url(img/slider/17.jpeg)">
+                  <a href="img/slider/20s.jpg" data-fancybox="gallery">
+                      <div class="image" style="background-image: url(img/slider/20.jpeg)">
                           <div class="overlay">
                               <em class="mdi mdi-magnify-plus"></em>
                           </div>
                       </div>
                   </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a href="img/slider/18s.jpg" data-fancybox="gallery">
-                        <div class="image" style="background-image: url(img/slider/18.jpeg)">
-                            <div class="overlay">
-                                <em class="mdi mdi-magnify-plus"></em>
-                            </div>
-                        </div>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a href="img/slider/19s.jpg" data-fancybox="gallery">
-                        <div class="image" style="background-image: url(img/slider/19.jpeg)">
-                            <div class="overlay">
-                                <em class="mdi mdi-magnify-plus"></em>
-                            </div>
-                        </div>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a href="img/slider/20s.jpg" data-fancybox="gallery">
-                        <div class="image" style="background-image: url(img/slider/20.jpeg)">
-                            <div class="overlay">
-                                <em class="mdi mdi-magnify-plus"></em>
-                            </div>
-                        </div>
-                    </a>
-                  </div>
-            </div>
-            <div class="swiper-pagination"></div>
-        </div>
-    </div>
-    <!--#Carousel Gallery-->
-    
+                </div>
+          </div>
+          <div class="swiper-pagination"></div>
+      </div>
+  </div>
+    <!--#Carousel Gallery2-->    
     <div class="plugins">
       <h3>View More</h3>
       
-      <a href="https://fancyapps.com/fancybox/3/" target="_blank">Click Here to Visit Instagram Profile</a>
+      <a href="https://www.instagram.com/summi_photography_zeus" target="_blank">Click Here to Visit Instagram Profile</a>
     </div>
 </div>
+<!-- /////////////////////////////////////////////////////////////////////////////// -->
 
+
+
+<!-- //////////////////////////////////////video //////////////////////////////////////// -->
+<hr class="my-5" />
+
+<div class="container-fluid">
+  
+  <h2 class="text-center">Web Designing Videos</h2>
+<p class="text-center">
+  Youtube Channel Videos form Web Tutuorials
+</p>
+
+<div class="row justify-content-center">
+  <div class="card-deck col-9">
+
+    <div class="card">
+      <a data-fancybox href="https://www.youtube.com/embed/QNX-x_bb6N0">
+        <img class="card-img-top img-fluid" src="http://img.youtube.com/vi/QNX-x_bb6N0/mqdefault.jpg" />
+      </a>
+      <div class="card-body">
+        <p class="card-text">JS Project to Change Background Color</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <a data-fancybox href="https://www.youtube.com/embed/DuNZtv2cOf8">
+        <img class="card-img-top img-fluid" src="http://img.youtube.com/vi/DuNZtv2cOf8/mqdefault.jpg" />
+      </a>
+      <div class="card-body">
+        <p class="card-text">JS Project to Change Background Color</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
 
 
 <!-- ///////////////////////// video tutorial ///////////////////////////// -->
@@ -401,16 +452,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/js/swiper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
     <script>
+      $('[data-fancybox]').fancybox({
+	protect: true
+});
         $(function(){
      
      var swiper = new Swiper('.carousel-gallery .swiper-container', {
        effect: 'slide',
-       speed: 900,
-       slidesPerView: 5,
+       speed: 300,
+       slidesPerView: 4,
        spaceBetween: 20,
        simulateTouch: true,
        autoplay: {
-         delay: 5000,
+         delay: 100,
          stopOnLastSlide: false,
          disableOnInteraction: false
        },
@@ -426,7 +480,7 @@
          },
          // when window width is <= 480px
          425: {
-           slidesPerView: 2,
+           slidesPerView: 1,
            spaceBetween: 10
          },
          // when window width is <= 640px
